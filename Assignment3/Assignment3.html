@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title> CS230 </title>
+        <link rel="stylesheet" href="Assignment3.css">
+    </head>
+    <br>
+    <br>
+<body>
+    <table id = "myTable" width = "100%" >
+        <caption>
+            Student Grades
+        </caption>
+ <thead>
+    <tr class = "rowstyle">
+          <th>Name</th>
+          <th>Student ID</th>
+          <th>Assignment 1</th>
+          <th>Assignment 2</th>
+          <th>Assignment 3</th>
+          <th>Assignment 4</th>
+          <th>Assignment 5</th>
+          <th>Final Grade</th>
+    </tr>
+</thead>
+    <tr >
+            <td >Eoin Cronly </td>
+            <td>21300976 </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">29 </td>
+            <td class = "rowstyle3" contenteditable="true">76 </td>
+            <td class = "rowstyle3" contenteditable="true">23 </td>
+            <td class = "rowstyle3" contenteditable="true">50 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "1">- </td>
+        </tr>
+        <tr >
+            <td >Eoin Cronly </td>
+            <td>21300976 </td>
+            <td class = "rowstyle3" contenteditable="true">33 </td>
+            <td class = "rowstyle3" contenteditable="true">65 </td>
+            <td class = "rowstyle3" contenteditable="true">36 </td>
+            <td class = "rowstyle3" contenteditable="true">54 </td>
+            <td class = "rowstyle3" contenteditable="true">50 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "2">- </td>
+        </tr>
+        <tr >
+            <td >Calum Cloak </td>
+            <td>20353228 </td>
+            <td class = "rowstyle3" contenteditable="true">65 </td>
+            <td class = "rowstyle3" contenteditable="true">75 </td>
+            <td class = "rowstyle3" contenteditable="true">76 </td>
+            <td class = "rowstyle3" contenteditable="true">78 </td>
+            <td class = "rowstyle3" contenteditable="true">50 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "3">- </td>
+        </tr>
+        <tr >
+            <td >Craig Finnerty </td>
+            <td>20296729            </td>
+            <td class = "rowstyle3" contenteditable="true">85 </td>
+            <td class = "rowstyle3" contenteditable="true">20 </td>
+            <td class = "rowstyle3" contenteditable="true">54 </td>
+            <td class = "rowstyle3" contenteditable="true">40 </td>
+            <td class = "rowstyle3" contenteditable="true">84 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "4">- </td>
+        </tr>
+        <tr >
+            <td >Sean Smith</td>
+            <td>22462713
+            </td>
+            <td class = "rowstyle3" contenteditable="true">45 </td>
+            <td class = "rowstyle3" contenteditable="true">86 </td>
+            <td class = "rowstyle3" contenteditable="true">75 </td>
+            <td class = "rowstyle3" contenteditable="true">40 </td>
+            <td class = "rowstyle3" contenteditable="true">86 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "5">- </td>
+        </tr>
+        <tr >
+            <td >Marcin Wielgorski </td>
+            <td>21361262 </td>
+            <td class = "rowstyle3" contenteditable="true">97 </td>
+            <td class = "rowstyle3" contenteditable="true">86 </td>
+            <td class = "rowstyle3" contenteditable="true">47 </td>
+            <td class = "rowstyle3" contenteditable="true">43 </td>
+            <td class = "rowstyle3" contenteditable="true">54 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "6">- </td>
+        </tr>
+        <tr >
+            <td >Dylan Williams</td>
+            <td>20062222
+            </td>
+            <td class = "rowstyle3" contenteditable="true">84 </td>
+            <td class = "rowstyle3" contenteditable="true">26</td>
+            <td class = "rowstyle3" contenteditable="true">83 </td>
+            <td class = "rowstyle3" contenteditable="true">34 </td>
+            <td class = "rowstyle3" contenteditable="true">89 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "7">- </td>
+        </tr>
+        <tr >
+            <td >Cameron Stewart Conroy</td>
+            <td>21585302
+            </td>
+            <td class = "rowstyle3" contenteditable="true">42.7 </td>
+            <td class = "rowstyle3" contenteditable="true">90 </td>
+            <td class = "rowstyle3" contenteditable="true">70 </td>
+            <td class = "rowstyle3" contenteditable="true">80 </td>
+            <td class = "rowstyle3" contenteditable="true">05 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "8">- </td>
+        </tr>
+        <tr >
+            <td >Liam Moloney Quinn</td>
+            <td>20670220
+            </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">76 </td>
+            <td class = "rowstyle3" contenteditable="true">96 </td>
+            <td class = "rowstyle3" contenteditable="true">66 </td>
+            <td class = "rowstyle3" contenteditable="true">84 </td>
+            <td class = "rowstyle2" onclick = "changeFormat(this)" id = "9">- </td>
+        </tr>
+        <tr >
+            <td >Katie Loughran</td>
+            <td>20892730
+            </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle3" contenteditable="true">100 </td>
+            <td class = "rowstyle2"onclick = "changeFormat(this)" id = "10">- </td>
+        </tr>
+    </table>
+      <br>
+      <button onclick = "myCreateFunction()"> Add Student </button>
+      <button onclick = "addColumn()"> Add Assignment </button>
+    <p id = ass>Unfinished Assignments:0</p>
+    </body>
+<script src="Assignment3.js"> </script>
+
+</html>

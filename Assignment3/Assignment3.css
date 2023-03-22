@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+  }
+  .rowstyle{
+    text-align: center;
+    background-color: gray;
+  }
+  .rowstyle2{
+    text-align: center;
+  }
+.rowstyle3{
+  text-align: right;
+
+}
+
+thead{
+  font-weight: 700;
+}
+fancy{
+  font-weight: 700;
+  font-size: 20px;
+  color: aqua;
+}
